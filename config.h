@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "FontAwesome5Pro:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "Fira Code:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true", "Font Awesome 5 Pro:size=10",  "Noto Sans CJK JP:size=10"};
 static int borderpx = 2;
 
 /*
@@ -133,7 +133,7 @@ static const char *colorname[] = {
   [15] = "#ffffff", /* white   */
 
   /* special colors */
-  [256] = "#282a36", /* background */
+  [256] = "#000000", /* background */
   [257] = "#f8f8f2", /* foreground */
 
 };
